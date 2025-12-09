@@ -1,0 +1,101 @@
+/* Dark Theme */
+body {
+    background: #0d1117;
+    color: #e6e6e6;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #161b22;
+    border-bottom: 2px solid #30363d;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #00c4ff;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 5px;
+}
+
+/* Navigation */
+nav {
+    background: #1f2933;
+    text-align: center;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #00eaff;
+    margin: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Sections */
+.section {
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+    border-bottom: 1px solid #222;
+}
+
+h2 {
+    color: #00c4ff;
+    margin-bottom: 15px;
+}
+
+/* Cards */
+.card {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 3px solid #00c4ff;
+    box-shadow: 0 0 10px rgba(0,255,255,0.1);
+}
+
+/* Scroll animation */
+.animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.7s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/* Footer */
+footer {
+    background: #161b22;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 2px solid #30363d;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+}
